@@ -1,5 +1,8 @@
 /* Add CSS styling here */
 
+/* -Font Import- */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
 * {
 	/*border: 1px solid red;*/
 	/*-Debug Border-*/
@@ -8,13 +11,15 @@
 html {
 	width: 100%;
 	height: 100%;
-	background-color: goldenrod;
+	background-color: #ccffff;
 	margin: 10px 0;
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 header {
 	display: inline-flex;
 	width: 100%;
+	background-color: #e6ffff;
 }
 
 nav {
@@ -30,7 +35,7 @@ nav h1 {
 	width: 70%;
 	font-size: 2em;
 	color: black;
-	text-shadow: 1px 1px white;
+	text-shadow: 1px 1px #00ffff;
 	margin-left: 20px;
 }
 
@@ -40,7 +45,7 @@ nav h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: dodgerblue;
+	background-color: paleturquoise;
 	border: 1px solid black;
 	border-radius: 10px;
 	margin-left: 5px;
@@ -80,7 +85,7 @@ nav h1 {
 	margin: 2% 0;
 	padding: 1% 2%;
 	font-size: 1.5em;
-	background-color: dodgerblue;
+	background-color: paleturquoise;
 	border: 1px solid black;
 	border-radius: 10px;
 }
@@ -92,7 +97,7 @@ nav h1 {
 	align-content: space-between;
 	width: 100%;
 	height: 100vh;
-	padding-bottom: 2%;
+	padding-bottom: 5%;
 }
 
 .image {
@@ -117,13 +122,14 @@ footer {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	background-color: #e6ffff;
 }
 
 #contact-me {
-	margin: 4% 0;
+	margin: 2% 0;
 	padding: 1% 2%;
 	font-size: 1.5em;
-	background-color: dodgerblue;
+	background-color: #ccffff;
 	border: 1px solid black;
 	border-radius: 10px;
 }
