@@ -1,16 +1,78 @@
 /* Add CSS styling here */
 
 * {
-	margin: 5px;
-	padding: 10px;
 	border: 1px solid red;
 }	
 
 html {
-	width: 96vw;
+	width: 100vw;
 	height: 100vh;
 }
 
+header {
+	display: inline-flex;
+	background-color: coral;
+	width: 100%;
+}
+
+nav h1 {
+	display: inline-flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: baseline;
+	width: 100%;
+}
+
 #head-img {
-	background: url("https://picsum.photos/200/300");
+	background: url("https://picsum.photos/1400/400");
+	width: 80%;
+	height: 50vh;
+	margin: 0 10%;
+}
+
+#image-txt {
+	display: flex;
+	justify-content: center;
+}
+
+#image-txt h2 {
+	text-align: center;
+	width: 100%;
+}
+
+#main-link {
+
+}
+
+#content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.image {
+	width: 400px;
+	height: 300px;
+	margin: 5% 1%;
+	background: url("https://picsum.photos/400/300");
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	width: 100%
+}
+
+#contact-me {
+	margin: 4% 0;
+	padding: 2%;
+	font-size: 24px;
 }
