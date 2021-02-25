@@ -145,7 +145,7 @@ a {
 @media (max-width: 800px) {
 	* {
 		/* ---Debug Border--- */
-/* 		border: 1px solid red; */
+		/* border: 1px solid red; */
 	}
 	
 	header nav {
@@ -222,6 +222,62 @@ a {
 
 /* ---MediaQuery for 500px Start---*/
 @media (max-width: 500px) {
+		* {
+		/* ---Debug Border--- */
+		/* border: 1px solid red; */
+	}
 	
+	header nav {
+		flex-flow: row;
+	}
+
+	header nav h1 {
+		font-size: 1.5em;
+		width: 100%;
+		margin: 2%;
+	}
+	
+	.link {
+		height: 40px;
+		font-size: 1em;
+	}
+
+	
+	#head-img {
+		height: 330px;
+	}
+
+	#image-txt h2 {
+		font-size: 2.5em;
+	}
+
+	#main-link {
+		height: 40px;
+		font-size: 1.5em;
+	}
+	
+	#content {
+		height: 800px;
+	}
+	
+	.image {
+		width: 30vw;
+		height: 25vh;
+	}
+
+	
+	.text {
+		width: 30vw;
+		height: 30vh;
+	}
+	
+	.text a {
+		font-size: 1em;
+	}
+	
+	#contact-me {
+		height: 40px;
+		font-size: 1.25em;
+	}
 }
 /* ---MediaQuery for 500px End---*/
