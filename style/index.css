@@ -138,3 +138,17 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
+/* ---Responsive Styling---*/
+
+/* ---MediaQuery for 800px Start---*/
+@media (max-width: 800px) {
+
+}
+/* ---MediaQuery for 800px End---*/
+
+/* ---MediaQuery for 500px Start---*/
+@media (max-width: 500px) {
+	
+}
+/* ---MediaQuery for 500px End---*/
