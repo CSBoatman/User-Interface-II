@@ -229,6 +229,7 @@ a {
 	
 	header nav {
 		flex-flow: row;
+		margin-right: 2%;
 	}
 
 	header nav h1 {
