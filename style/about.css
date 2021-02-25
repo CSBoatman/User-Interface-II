@@ -1,0 +1,96 @@
+/* Add CSS styling here */
+
+/* -Font Import- */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+* {
+	/*border: 1px solid red;*/
+	/*-Debug Border-*/
+}	
+
+html {
+	width: 100%;
+	height: 100%;
+	background-color: #ccffff;
+	margin: 10px 0;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+header {
+	display: inline-flex;
+	width: 100%;
+	background-color: #e6ffff;
+}
+
+header h1 {
+	display: inline-flex;
+	justify-content: flex-start;
+	width: 70%;
+	font-size: 2em;
+	color: black;
+	text-shadow: 1px 1px #00ffff;
+	margin-left: 20px;
+}
+
+#about-me {
+	background: url("https://picsum.photos/1000/400");
+	width: 62.5vw;
+	height: 50.7vh;
+	margin: 0 18.75%;
+	margin-top: 2%;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+#about-me p {
+	width: 30%;
+	height: 50%;
+	padding: 0 10%;
+	background-color: lightcyan;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	margin: 10% 25%;
+}
+
+#art {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 5%;
+}
+
+#one {
+	width: 25vw;
+	height: 50.69vh;
+	margin-top: 5%;
+	background: url("https://lh3.googleusercontent.com/jecOvXIhk1Swo4AqhcYdZzWHHqScUuJI7blyPXSzNDvYBeuhZRyeen4OaJgOlxuQk73-nSGv-JT8aIWcklbzcLsfFaWpK0bHmD2neyKn--kBPlSCRgVZuPpr6c0SHlTOUyNxsRiXXwF4nA6WC-SZbHK9ywhQLU14lx_ccyh0ZcMw8eHdqIyrMP7QMpddogPp_MWXt0vmWhZvk7lgEJAdoVvzfWloDnaXa0-WVQasfs4WS36cthYB7STPSfIeBvcfwn-bqawo4GdbOJquu244xAahTeOBVKPXCZ825muNQ_AnnFr5tC4FdvopP5ESOjWaOPVzUbS1VT6cNO6OF--hX_bFZr54gbm-Jp-ER8kIpq0G2LeQ_Y6AS4CJPV4CVaMmNKVgZ-RA9i6FrKm65E5yxxjs7kKxcWXwAK1qMQU3x2nPKYNgTDJAblpoPc2_nEYYiL4IKrdvHj9VIjqexxIhdofhmfxVeXUm9bhYkGvYP4Z82Cw5IurstR5jWqEn6qZpwvR8shY8EbjSelsuJW5ePD5Nm9CFqCWb4EWbkDamSm2zosXa69I4owFRBaN9o6h_Za3erkxf3BbCnSBFk-SOWrfnu4eXyPANZ6juq9hr2CjpWR3ghI325hORYrmujJYM4wvD2qMcZDxQogx0GER5Af8mci9_d0Rveg8ImNtz6ZlwweSO3aVAlIb52cQxEA=s400-no?authuser=0");
+	background-position: center;
+	border-style: double;
+	border-radius: 10px;
+}
+
+#two {
+	width: 50vw;
+	height: 50.69vh;
+	margin-top: 5%;
+	background: url("https://lh3.googleusercontent.com/s9nm-WAEvF9bhlNheeYR_cVbnp2_WPouaGQNjE7loZR92UPzzphQdzEh5-umLR-sPDgL2cmQdrjo16iZT7TlA4xg36_c0kdt7uSEF_pnVN0DrAYYYGUMNKOuAUlmb9PvP6glPdDZwEM-6vTl1whqYzhKqh301z_8oVfuSuprVFveVOlyRFOsjhtAyDGiAIfMYfbMiY7WMDYvUO30M2IWS1M2kOkoczq8tmPoRqMuLRUkVunmZqMRCbMx0dgXtdYvq0zXVDw_I3GHdhESIcCasOhYrhpxyVMNf94RtGj0rIpNQlc8YK2yms57GsceYFtjU-xunTYa1DNC_zkmvhLLImc4GxXCVCKHgTBT9-gowRndMa7wuiUvEiq7qqNqnGZNl9xedynaA90mGEULEVWaEq8EaWevWUjFPfp_GDrDxDukcnD0vJQ3Pv-xGPOi6AZwtYYlFnKjWloYlISSZ-lPlzGzKfmEJW46f0OtUB3lipBU0upzlfC4ua45wz0Gmj6zg_Ze2o-PxmNiKgw0--l5dwkr_pj5zvhEGjXPR-QGxfQcdLme36OQcsd5ER0p9uMLdJcrQjhx0ku-DwHbqxQ77u0xRC_MlWuW1fUwIRKRR61FRryVghjcE_oXNz6KAUttsFMmLAvPWIlA9zZJ_sTHtpO9sVt_nSKhmLAsm9Tu9GbiScnDWOPQ5WGep8AFIg=w947-h789-no?authuser=0");
+	background-position: center;
+	border-style: double;
+	border-radius: 10px;
+}
+
+#three {
+	width: 31.25vw;
+	height: 63.37vh;
+	margin-top: 5%;
+	background: url("https://lh3.googleusercontent.com/RjO-96kvyVwOmxS0QMWeuuwhXcErAMKciuqPP4_1M_SXSqmaCzuJwClmg0CCihtsOwpRxOtge5Wx-xFZkCt9NpCDQpVgDrw0nGFR03KdeTslcpOvn2HPG3qdTmVxPVHlNQLohaEOyslecv1B0mqz8fgv2gCNcSuzsUqqLe516WeZmNuvwR4oEweLA9T9_1VC86ro4Yuy_MUIS_zzPY7agiWgZODpRHwxNJQe6wKS3J3VjxGanySaj2hKou1Lgvy-eVKVkpfiLm8qnFUlstJDOVOSqZSYYbCanCn9jrTpAewOaH60SFZnbJ4tx3wYPaZDO8j4NQNW7TuWtAarVchyOwbq3chyqw2-SuSFsWxZYQS58vkua1XpmAgoAbtbkF9597i1-44kI9RSz2hDisJgFznAmZyGmJdUpqtJ9xY8ERyZQ0yOAl7Hzj-FWiIMfsqChAfuAVecwwAZWm2HbkEMtnQ_Gr-78OJHEyGp64Jtpm31G8FYIk4nVp1nZSNdNE-_1ROxWxGyybD6ZNihn2Ba6Xm_QEaJrLKtFAinqMPhmtXDXOScYYM1QeleZ6KmQbdJWuGqiF2xFWR-0nByZjGpR-N2LQi_EB8TbiQB9nH_w12MqSmUteOqFMFbpdzgLNaEumPgDZ2ckfU6zbgy30xbOPFwXJRCswN6FMvu4i7LwFgnm12Dm5sMKtH9fPwqug=w640-h480-no?authuser=0");
+	background-position: center;
+	border-style: double;
+	border-radius: 10px;
+}
